@@ -109,6 +109,11 @@ main{
   align-items: center;
   gap: 1rem;
 }
+.time{
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
 
 .image-cont {
   width: 400px;
