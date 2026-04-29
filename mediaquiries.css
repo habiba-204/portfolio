@@ -1,0 +1,112 @@
+/*  Small Desktop  */
+
+@media(max-width: 1180px){
+    
+#hero-sec{
+    flex-direction: column;
+}
+    
+#about-me .about-body{
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+
+/* Tablet  */
+ 
+@media(max-width: 760px) {
+    html{
+      font-size: 10px;  
+    }
+ 
+#nav-bar {
+  display: none;
+ }
+#nav-bar-mobile{
+  display: flex;
+} 
+
+#nav-list-mobile{
+ display: none;
+ border: 2px solid red;
+ flex-direction: column;
+ background: #e7e7e7;
+ justify-content: space-around;
+ align-items: center;
+ position: fixed;
+ width: 100vw;
+ height:calc(100vh - 83px);
+ top: 80px;
+ left: 0;
+}
+#hamburger-icon #close-icon{
+  display: none;
+}
+
+#hamburger-icon.open #open-icon{
+ display: none;
+}
+
+#hamburger-icon.open #close-icon{
+  display: inline;
+}
+
+#hero-sec{
+    flex-direction: column;
+}
+
+.image-cont {
+  width: 270px;
+  height: 270px;
+}
+/*     about me     */
+
+#about-me{
+    padding: 0 3rem;
+}
+
+#about-me .about-body{
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-me .about-img-cont {
+  width: 270px;
+  height: 270px;
+}
+
+#about-me .card-container{
+    flex-direction: column;
+}
+
+#experience{
+    padding: 1rem;
+}
+ }
+
+/*  Mobile */
+
+@media(max-width: 760px) {
+  .image-cont {
+  width: 150px;
+  height: 150px;
+}
+
+#contact-me{
+   padding: 2rem;
+}
+
+
+#nav-list-mobile.open{
+  display: flex;
+}
+#about-me .about-img-cont {
+  width: 150px;
+  height: 150px;
+}
+#experience .stacks-cont{
+    flex-direction: column;
+    align-items: center;
+}
+}
